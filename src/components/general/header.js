@@ -60,22 +60,22 @@ export default function Home() {
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-primary">
                   <Link href="/">
-                    Home
+                    Beranda
                   </Link>
                 </li>
                 <li className="text-primary">
                   <Link href="/blogs">
-                    Blogs
+                    Tentang Saya
                   </Link>
                 </li>
                 <li className="text-primary">
                   <Link href="/about">
-                    About US
+                    Portfolio
                   </Link>
                 </li>
                 <li className="text-primary">
                   <Link href="/contact">
-                    Contact US
+                    Hubungi Saya
                   </Link>
                 </li>
               </ul>

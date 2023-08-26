@@ -38,7 +38,7 @@ export default function Home() {
       {/* Hero Section End */}
 
       {/* About Section Start */}
-      <section className="pb-32">
+      <section className="pt-36 pb-32">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2">
@@ -79,6 +79,35 @@ export default function Home() {
         </div>
       </section>
       {/* About Section End */}
+
+      {/* Portfolio Section Start */}
+      <section className="pt-36 pb-16 bg-slate-100">
+        <div className="container">
+          <div className="w-full px-4">
+            <div className="max-w-xl mx-auto text-center mb-16">
+              <h4 className="font-semibold text-lg text primary mb-2">Portfolio</h4>
+              <h2 className="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
+              <p className="font-medium text-md text-secondary">
+                Saya senang dengan tantangan baru dan kesempatan untuk terus belajar. Jika Anda mencari pengembang web yang dapat memberikan solusi komprehensif dari depan hingga belakang, saya siap berkolaborasi dengan Anda.
+              </p>
+            </div>
+          </div>
+          <div className="w-full px-4 flex flex-wrap justify-center">
+            <div className="mb-12 p-4 md:w-1/2">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img className="w-full" src="/assets/mentoring.jpg" alt="CV"/>
+              </div>
+              <h3 className="font-semibold text-xl text-dark mt-5">
+                Contoh Portfolio
+              </h3>
+              <p className="font-medium text-base text-secondary">
+                Mengembangkan platform manajemen konten responsif dengan menggunakan React sebagai frontend dan Node.js sebagai backend. Proyek ini memungkinkan pengguna untuk membuat, mengedit, dan menghapus konten dengan antarmuka yang intuitif.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Portfolio Section End */}
     </>
   )
 }
