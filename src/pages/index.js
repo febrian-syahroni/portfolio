@@ -9,10 +9,10 @@ export default function Home() {
         <title>Portofolio Febrian Syahroni</title>
       </Head>
       {/* Hero Section Start */}
-      <section id="home" className="pt-20 border">
+      <section id="home" className="pt-20">
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="w-full self-center px-4 lg:w-1/2 border">
+            <div className="w-full self-center px-4 lg:w-1/2">
               <h1 className="text-base font-semibold text-primary md:text-xl">
                 Halo Semua, Perkenalkan saya <span className="block font-bold text-orange-500 text-4xl lg:text-5xl">Febrian Syahroni</span>
               </h1>
@@ -27,7 +27,7 @@ export default function Home() {
               </p>
               <Link href="#" className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</Link>
             </div>
-            <div className="w-full self-end px-1 lg:w-1/2 border">
+            <div className="w-full self-end px-1 lg:w-1/2">
               <div className="relative lg:right-0">
                 <Image src="/assets/foto-formal.png" width={400} height={400} alt="foto hero" className="max-w-full mx-auto" />
               </div>
