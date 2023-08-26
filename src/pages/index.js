@@ -25,7 +25,7 @@ export default function Home() {
                 <br />
                 Di sisi back-end, saya memanfaatkan Node.js dan Express untuk membangun server yang mampu mengelola registrasi pengguna, autentikasi, serta pengelolaan konten kelas. Saya juga mengintegrasikan basis data MongoDB untuk menyimpan informasi pengguna, konten kursus, dan data kemajuan.
               </p>
-              <Link href="#" className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</Link>
+              <Link href="#" className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Kami</Link>
             </div>
             <div className="w-full self-end px-1 lg:w-1/2">
               <div className="relative lg:right-0">
@@ -85,22 +85,67 @@ export default function Home() {
         <div className="container">
           <div className="w-full px-4">
             <div className="max-w-xl mx-auto text-center mb-16">
-              <h4 className="font-semibold text-lg text primary mb-2">Portfolio</h4>
+              <h4 className="font-bold uppercase text-primary text-lg mb-3">Portfolio</h4>
               <h2 className="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
-              <p className="font-medium text-md text-secondary">
+              <p className="font-medium text-md text-dark">
                 Saya senang dengan tantangan baru dan kesempatan untuk terus belajar. Jika Anda mencari pengembang web yang dapat memberikan solusi komprehensif dari depan hingga belakang, saya siap berkolaborasi dengan Anda.
               </p>
             </div>
           </div>
-          <div className="w-full px-4 flex flex-wrap justify-center">
+
+          <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
             <div className="mb-12 p-4 md:w-1/2">
               <div className="rounded-md shadow-md overflow-hidden">
-                <img className="w-full" src="/assets/mentoring.jpg" alt="CV"/>
+                <img className="w-full" src="/assets/mentoring.jpg" alt="CV" />
               </div>
-              <h3 className="font-semibold text-xl text-dark mt-5">
+              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
                 Contoh Portfolio
               </h3>
-              <p className="font-medium text-base text-secondary">
+              <p className="font-medium text-base text-dark">
+                Mengembangkan platform manajemen konten responsif dengan menggunakan React sebagai frontend dan Node.js sebagai backend. Proyek ini memungkinkan pengguna untuk membuat, mengedit, dan menghapus konten dengan antarmuka yang intuitif.
+              </p>
+            </div>
+            <div className="mb-12 p-4 md:w-1/2">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img className="w-full" src="/assets/mentoring.jpg" alt="CV" />
+              </div>
+              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
+                Contoh Portfolio
+              </h3>
+              <p className="font-medium text-base text-dark">
+                Mengembangkan platform manajemen konten responsif dengan menggunakan React sebagai frontend dan Node.js sebagai backend. Proyek ini memungkinkan pengguna untuk membuat, mengedit, dan menghapus konten dengan antarmuka yang intuitif.
+              </p>
+            </div>
+            <div className="mb-12 p-4 md:w-1/2">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img className="w-full" src="/assets/mentoring.jpg" alt="CV" />
+              </div>
+              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
+                Contoh Portfolio
+              </h3>
+              <p className="font-medium text-base text-dark">
+                Mengembangkan platform manajemen konten responsif dengan menggunakan React sebagai frontend dan Node.js sebagai backend. Proyek ini memungkinkan pengguna untuk membuat, mengedit, dan menghapus konten dengan antarmuka yang intuitif.
+              </p>
+            </div>
+            <div className="mb-12 p-4 md:w-1/2">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img className="w-full" src="/assets/mentoring.jpg" alt="CV" />
+              </div>
+              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
+                Contoh Portfolio
+              </h3>
+              <p className="font-medium text-base text-dark">
+                Mengembangkan platform manajemen konten responsif dengan menggunakan React sebagai frontend dan Node.js sebagai backend. Proyek ini memungkinkan pengguna untuk membuat, mengedit, dan menghapus konten dengan antarmuka yang intuitif.
+              </p>
+            </div>
+            <div className="mb-12 p-4 md:w-1/2">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img className="w-full" src="/assets/mentoring.jpg" alt="CV" />
+              </div>
+              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
+                Contoh Portfolio
+              </h3>
+              <p className="font-medium text-base text-dark">
                 Mengembangkan platform manajemen konten responsif dengan menggunakan React sebagai frontend dan Node.js sebagai backend. Proyek ini memungkinkan pengguna untuk membuat, mengedit, dan menghapus konten dengan antarmuka yang intuitif.
               </p>
             </div>
@@ -108,6 +153,12 @@ export default function Home() {
         </div>
       </section>
       {/* Portfolio Section End */}
+
+      {/* Kontak Section Start */}
+      <section className="pt-36 pb-32">
+        <div className="container"></div>
+      </section>
+      {/* Kontak Section End */}
     </>
   )
 }
