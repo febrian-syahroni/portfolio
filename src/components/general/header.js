@@ -73,11 +73,6 @@ export default function Home() {
                     Portfolio
                   </Link>
                 </li>
-                <li className="text-pertama">
-                  <Link href="#hubungi kami">
-                    Hubungi Saya
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
