@@ -10,6 +10,9 @@ export default function Footer() {
               <p>febrian.fs716@gmail.com</p>
               <p>Karawang</p>
             </div>
+            <div className="w-full px-4 mb-12 md:w-1/3">
+              <h3 className="font-semibold text-xl text-white mb5"></h3>
+            </div>
           </div>
         </div>
       </footer>
