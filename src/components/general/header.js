@@ -22,7 +22,7 @@ export default function Home() {
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-primary"
+                      className="w-6 h-6 text-pertama"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -35,7 +35,7 @@ export default function Home() {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-primary"
+                      className="w-6 h-6 text-pertama"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -58,23 +58,23 @@ export default function Home() {
                 }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-primary">
-                  <Link href="/">
+                <li className="text-pertama">
+                  <Link href="#home">
                     Beranda
                   </Link>
                 </li>
-                <li className="text-primary">
-                  <Link href="/blogs">
+                <li className="text-pertama">
+                  <Link href="#tentang saya">
                     Tentang Saya
                   </Link>
                 </li>
-                <li className="text-primary">
-                  <Link href="/about">
+                <li className="text-pertama">
+                  <Link href="#portfolio">
                     Portfolio
                   </Link>
                 </li>
-                <li className="text-primary">
-                  <Link href="/contact">
+                <li className="text-pertama">
+                  <Link href="#hubungi kami">
                     Hubungi Saya
                   </Link>
                 </li>

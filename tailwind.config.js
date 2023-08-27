@@ -15,9 +15,9 @@ module.exports = {
         play: ['Play', "sans-serif"]
       },
       colors: {
-        primary: "#44749d",
+        pertama: "#44749d",
         dark: "#383636",
-        secondary: "#00bf7a",
+        kedua: "#00bf7a",
       },
       screens: {
         "2xl": "1320px"
