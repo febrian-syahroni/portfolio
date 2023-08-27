@@ -38,7 +38,7 @@ export default function Home() {
       {/* Hero Section End */}
 
       {/* About Section Start */}
-      <section className="pt-36 pb-32">
+      <section id="tentang saya" className="pt-36 pb-32">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2">
@@ -81,7 +81,7 @@ export default function Home() {
       {/* About Section End */}
 
       {/* Portfolio Section Start */}
-      <section className="pt-36 pb-16 bg-slate-100">
+      <section id="portfolio" className="pt-36 pb-16 bg-slate-100">
         <div className="container">
           <div className="w-full px-4">
             <div className="max-w-xl mx-auto text-center mb-16">
@@ -155,7 +155,7 @@ export default function Home() {
       {/* Portfolio Section End */}
 
       {/* Kontak Section Start */}
-      <section className="pt-36 pb-32">
+      <section id="hubungi kami" className="pt-36 pb-32">
         <div className="container">
           <div className="w-full px-4">
             <div className="max-w-xl mx-auto text-center mb-16">
