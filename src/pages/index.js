@@ -156,7 +156,36 @@ export default function Home() {
 
       {/* Kontak Section Start */}
       <section className="pt-36 pb-32">
-        <div className="container"></div>
+        <div className="container">
+          <div className="w-full px-4">
+            <div className="max-w-xl mx-auto text-center mb-16">
+              <h4 className="font-bold uppercase text-primary text-lg mb-3">Kontak</h4>
+              <h2 className="font-bold text-dark text-3xl mb-4">Hubungi Kami</h2>
+              <p className="font-medium text-md text-dark">
+                Saya senang dengan tantangan baru dan kesempatan untuk terus belajar. Jika Anda mencari pengembang web yang dapat memberikan solusi komprehensif dari depan hingga belakang, saya siap berkolaborasi dengan Anda.
+              </p>
+            </div>
+          </div>
+          <form>
+            <div className="w-full lg:w-2/3 lg:mx-auto">
+              <div className="w-full px-4 mb-8">
+                <label className="text-base font-bold text-dark" for="name">Nama</label>
+                <input type="text" className="p-3 w-full bg-slate-200 text-dark rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+              </div>
+              <div className="w-full px-4 mb-8">
+                <label className="text-base font-bold text-dark" for="email">Email</label>
+                <input type="text" className="p-3 w-full bg-slate-200 text-dark rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+              </div>
+              <div className="w-full px-4 mb-8">
+                <label className="text-base font-bold text-dark" for="message">Pesan</label>
+                <textarea type="text" className="p-3 h-32 w-full bg-slate-200 text-dark rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+              </div>
+              <div className="w-full px-4">
+                <button className="text-base font-semibold bg-secondary py-3 px-8 rounded-full text-white w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </section>
       {/* Kontak Section End */}
     </>
